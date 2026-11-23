@@ -1,0 +1,1291 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>印象足拍在线播放_官方视频门户|记录每一步的真实力量</title>
+<meta name="description" content="印象足拍在线播放官方网站，专注足部影像记录与生活步伐的真实表达，聚合原创高清视频、创作者社区与品牌故事，打造值得信赖的足拍内容生态。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23223344'/%3E%3Cpath d='M20 44c6-2 10-8 12-16 1-4 4-6 8-6 4 0 6 3 6 7 0 8-8 15-16 17-4 1-8 0-10-2z' fill='%23f5a623'/%3E%3Ccircle cx='24' cy='22' r='4' fill='%23f5a623'/%3E%3C/svg%3E">
+<style>
+:root{
+  --yz-ink:#22313f;
+  --yz-deep:#182430;
+  --yz-paper:#f4f6f8;
+  --yz-card:#ffffff;
+  --yz-line:#dde3e9;
+  --yz-muted:#5d6d7c;
+  --yz-blue:#2f6f8f;
+  --yz-blue-soft:#e8f1f5;
+  --yz-amber:#f5a623;
+  --yz-amber-soft:#fdf2df;
+  --yz-radius:14px;
+  --yz-shadow:0 10px 30px rgba(24,36,48,.08);
+  --yz-head-h:56px;
+  --yz-ann-h:38px;
+  --yz-sticky:calc(var(--yz-head-h) + var(--yz-ann-h));
+  --yz-font:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,-apple-system,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  font-family:var(--yz-font);
+  background:var(--yz-paper);
+  color:var(--yz-ink);
+  line-height:1.75;
+  font-size:15px;
+  -webkit-font-smoothing:antialiased;
+}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+button{font-family:inherit;cursor:pointer;border:none;background:none}
+.yz-shell{width:min(1180px,92vw);margin:0 auto}
+.yz-anchor{scroll-margin-top:calc(var(--yz-sticky) + 16px)}
+
+/* ===== 公告条 + 页头 吸顶 ===== */
+.yz-sticky-group{
+  position:sticky;top:0;z-index:120;
+  background:var(--yz-card);
+  box-shadow:0 2px 14px rgba(24,36,48,.09);
+}
+.yz-announce{
+  background:linear-gradient(90deg,var(--yz-deep),#274252 60%,#2f5d6e);
+  color:#eef4f7;
+  height:var(--yz-ann-h);
+  display:flex;align-items:center;
+  font-size:13px;
+  overflow:hidden;
+}
+.yz-announce .yz-shell{display:flex;align-items:center;gap:14px;width:min(1180px,94vw)}
+.yz-announce-tag{
+  flex:0 0 auto;
+  background:var(--yz-amber);color:#3a2a05;
+  font-weight:700;font-size:11px;letter-spacing:.12em;
+  padding:2px 8px;border-radius:4px;
+}
+.yz-announce-txt{
+  flex:1 1 auto;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+}
+.yz-announce-txt b{color:var(--yz-amber);font-weight:600}
+.yz-announce-link{
+  flex:0 0 auto;font-size:12px;border:1px solid rgba(255,255,255,.45);
+  padding:2px 10px;border-radius:20px;transition:.25s;
+}
+.yz-announce-link:hover{background:rgba(255,255,255,.15)}
+
+.yz-header{
+  height:var(--yz-head-h);
+  display:flex;align-items:center;
+  border-bottom:1px solid var(--yz-line);
+  background:var(--yz-card);
+}
+.yz-header .yz-shell{display:flex;align-items:center;gap:24px;width:min(1180px,94vw)}
+.yz-logo{display:flex;align-items:center;gap:9px;flex:0 0 auto}
+.yz-logo-mark{width:32px;height:32px;border-radius:8px;background:var(--yz-deep);display:grid;place-items:center}
+.yz-logo-mark svg{width:22px;height:22px}
+.yz-logo-name{font-size:16px;font-weight:800;letter-spacing:.02em}
+.yz-logo-name em{font-style:normal;color:var(--yz-blue)}
+.yz-logo-sub{display:block;font-size:9px;letter-spacing:.3em;color:var(--yz-muted);font-weight:500}
+.yz-nav{display:flex;gap:4px;margin-left:8px}
+.yz-nav a{
+  font-size:14px;padding:6px 12px;border-radius:8px;color:#3c4c5a;
+  transition:.2s;white-space:nowrap;font-weight:500;
+}
+.yz-nav a:hover{background:var(--yz-blue-soft);color:var(--yz-blue)}
+.yz-search{
+  margin-left:auto;display:flex;align-items:center;
+  background:var(--yz-paper);border:1px solid var(--yz-line);border-radius:24px;
+  padding:4px 4px 4px 14px;width:230px;transition:.25s;
+}
+.yz-search:focus-within{border-color:var(--yz-blue);box-shadow:0 0 0 3px rgba(47,111,143,.12)}
+.yz-search input{
+  border:none;background:none;outline:none;font-size:13px;flex:1;min-width:0;color:var(--yz-ink);
+}
+.yz-search button{
+  background:var(--yz-blue);color:#fff;border-radius:20px;height:28px;
+  padding:0 13px;font-size:12px;font-weight:600;flex:0 0 auto;
+}
+.yz-search-msg{
+  position:absolute;top:calc(100% + 6px);right:0;background:var(--yz-deep);color:#fff;
+  font-size:12px;padding:7px 13px;border-radius:8px;opacity:0;pointer-events:none;transition:.25s;
+  max-width:280px;box-shadow:var(--yz-shadow);
+}
+.yz-search-msg.is-on{opacity:1;transform:translateY(2px)}
+.yz-search-wrap{position:relative;margin-left:auto}
+.yz-burger{
+  display:none;width:38px;height:38px;border-radius:9px;background:var(--yz-paper);
+  margin-left:auto;place-items:center;
+}
+.yz-burger span{display:block;width:17px;height:2px;background:var(--yz-ink);position:relative}
+.yz-burger span::before,.yz-burger span::after{content:"";position:absolute;left:0;width:17px;height:2px;background:var(--yz-ink)}
+.yz-burger span::before{top:-5px}.yz-burger span::after{top:5px}
+.yz-mobile-nav{display:none;background:var(--yz-card);border-bottom:1px solid var(--yz-line)}
+.yz-mobile-nav.is-open{display:block}
+.yz-mobile-nav .yz-shell{display:flex;flex-direction:column;padding:8px 0 14px}
+.yz-mobile-nav a{padding:9px 4px;font-size:14px;border-bottom:1px dashed var(--yz-line)}
+.yz-mobile-nav a:last-child{border-bottom:none}
+
+/* ===== 首屏：6:4 大幅图文 ===== */
+.yz-hero{padding:46px 0 54px;background:
+  radial-gradient(1100px 420px at 82% -10%,rgba(47,111,143,.10),transparent 65%),
+  linear-gradient(180deg,#fff 0%,var(--yz-paper) 100%);
+  border-bottom:1px solid var(--yz-line);
+}
+.yz-hero-grid{display:grid;grid-template-columns:minmax(0,6fr) minmax(0,4fr);gap:44px;align-items:center}
+.yz-hero-kicker{
+  display:inline-flex;align-items:center;gap:8px;font-size:12px;letter-spacing:.16em;
+  color:var(--yz-blue);font-weight:700;background:var(--yz-blue-soft);
+  padding:5px 14px;border-radius:20px;margin-bottom:18px;
+}
+.yz-hero-kicker::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--yz-amber)}
+.yz-hero h1{
+  font-size:clamp(34px,5.2vw,62px);
+  line-height:1.12;letter-spacing:-.01em;font-weight:900;
+  margin-bottom:18px;
+}
+.yz-hero h1 em{
+  font-style:normal;color:var(--yz-blue);position:relative;display:inline-block;
+}
+.yz-hero h1 em::after{
+  content:"";position:absolute;left:0;right:0;bottom:6px;height:9px;
+  background:var(--yz-amber);opacity:.4;border-radius:4px;z-index:-1;
+}
+.yz-hero-lead{font-size:16.5px;color:#41505f;max-width:34em;margin-bottom:16px}
+.yz-hero-abs{
+  font-size:14px;color:var(--yz-muted);line-height:1.9;
+  border-left:3px solid var(--yz-line);padding-left:16px;margin-bottom:24px;
+}
+.yz-hero-abs b{color:var(--yz-ink);font-weight:600}
+.yz-hero-cta{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:30px}
+.yz-btn{
+  display:inline-flex;align-items:center;gap:8px;font-size:14px;font-weight:600;
+  padding:11px 22px;border-radius:10px;transition:.22s;border:1px solid transparent;
+}
+.yz-btn-primary{background:var(--yz-deep);color:#fff;box-shadow:0 6px 18px rgba(24,36,48,.22)}
+.yz-btn-primary:hover{background:#0f1a24;transform:translateY(-2px)}
+.yz-btn-ghost{border-color:var(--yz-line);background:#fff;color:var(--yz-ink)}
+.yz-btn-ghost:hover{border-color:var(--yz-blue);color:var(--yz-blue);transform:translateY(-2px)}
+.yz-btn-amber{background:var(--yz-amber);color:#3a2a05}
+.yz-btn-amber:hover{filter:brightness(1.06);transform:translateY(-2px)}
+.yz-hero-stats{display:flex;gap:0;flex-wrap:wrap;border-top:1px solid var(--yz-line);padding-top:20px}
+.yz-hero-stats > div{padding-right:28px;margin-right:28px;border-right:1px solid var(--yz-line)}
+.yz-hero-stats > div:last-child{border-right:none;margin-right:0;padding-right:0}
+.yz-stat-num{font-size:26px;font-weight:900;color:var(--yz-deep);line-height:1.2;letter-spacing:-.01em}
+.yz-stat-num small{font-size:13px;font-weight:700;color:var(--yz-blue);margin-left:2px}
+.yz-stat-label{font-size:12px;color:var(--yz-muted);letter-spacing:.04em}
+
+.yz-hero-visual{position:relative}
+.yz-hero-frame{
+  border-radius:18px;overflow:hidden;box-shadow:0 24px 60px rgba(24,36,48,.20);
+  background:#0f1a24;border:1px solid #26394a;
+}
+.yz-hero-frame img{width:100%;aspect-ratio:4/5;object-fit:cover}
+.yz-hero-badge{
+  position:absolute;left:-14px;bottom:26px;background:#fff;border-radius:12px;
+  padding:10px 16px;box-shadow:var(--yz-shadow);display:flex;align-items:center;gap:10px;
+  border:1px solid var(--yz-line);
+}
+.yz-hero-badge .dot{width:8px;height:8px;border-radius:50%;background:#31b06e;box-shadow:0 0 0 4px rgba(49,176,110,.18)}
+.yz-hero-badge b{font-size:13px;display:block}
+.yz-hero-badge span{font-size:11px;color:var(--yz-muted)}
+.yz-play{
+  position:absolute;inset:0;display:grid;place-items:center;pointer-events:none;
+}
+.yz-play i{
+  width:62px;height:62px;border-radius:50%;background:rgba(255,255,255,.92);
+  display:grid;place-items:center;box-shadow:0 8px 26px rgba(0,0,0,.3);
+}
+.yz-play i::before{
+  content:"";border-left:17px solid var(--yz-deep);border-top:11px solid transparent;
+  border-bottom:11px solid transparent;margin-left:5px;
+}
+
+/* ===== 通用板块 ===== */
+.yz-section{padding:56px 0}
+.yz-section-alt{background:#fff;border-top:1px solid var(--yz-line);border-bottom:1px solid var(--yz-line)}
+.yz-sec-head{margin-bottom:30px;display:flex;align-items:flex-end;justify-content:space-between;gap:24px;flex-wrap:wrap}
+.yz-sec-title{font-size:clamp(22px,3vw,30px);font-weight:900;letter-spacing:-.01em;line-height:1.3}
+.yz-sec-title span{color:var(--yz-blue)}
+.yz-sec-desc{font-size:14px;color:var(--yz-muted);max-width:38em;margin-top:7px}
+.yz-sec-more{font-size:13px;font-weight:600;color:var(--yz-blue);border-bottom:1px dashed var(--yz-blue);padding-bottom:2px;white-space:nowrap}
+
+/* ===== 焦点内容 + 视频列表 ===== */
+.yz-focus-grid{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:30px;align-items:start}
+.yz-focus-main{
+  background:var(--yz-card);border-radius:var(--yz-radius);overflow:hidden;
+  border:1px solid var(--yz-line);box-shadow:var(--yz-shadow);transition:.28s;
+}
+.yz-focus-main:hover{transform:translateY(-4px);box-shadow:0 20px 44px rgba(24,36,48,.14)}
+.yz-focus-main figure{position:relative;margin:0}
+.yz-focus-main img{width:100%;aspect-ratio:16/9;object-fit:cover}
+.yz-tag-live{
+  position:absolute;top:12px;left:12px;background:var(--yz-amber);color:#3a2a05;
+  font-size:11px;font-weight:800;padding:3px 10px;border-radius:5px;letter-spacing:.06em;
+}
+.yz-focus-body{padding:20px 22px 22px}
+.yz-focus-body h3{font-size:21px;font-weight:800;line-height:1.4;margin-bottom:9px}
+.yz-focus-body p{font-size:13.5px;color:var(--yz-muted);margin-bottom:14px}
+.yz-meta{display:flex;flex-wrap:wrap;gap:14px;font-size:12px;color:var(--yz-muted);align-items:center}
+.yz-meta b{color:var(--yz-ink);font-weight:600}
+.yz-chip-row{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:14px}
+.yz-chip{
+  font-size:11.5px;color:var(--yz-blue);background:var(--yz-blue-soft);
+  padding:2px 10px;border-radius:5px;font-weight:600;
+}
+.yz-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:15px;padding-top:14px;border-top:1px dashed var(--yz-line)}
+.yz-act{
+  display:inline-flex;align-items:center;gap:5px;font-size:12.5px;color:var(--yz-muted);
+  padding:5px 11px;border-radius:20px;background:var(--yz-paper);transition:.2s;border:1px solid transparent;
+}
+.yz-act:hover{background:var(--yz-blue-soft);color:var(--yz-blue)}
+.yz-act.is-liked{background:#fdeaea;color:#c0392b;border-color:#f5c6c6}
+.yz-act.is-saved{background:#fff6e3;color:#b7791f;border-color:#f3dfb8}
+
+.yz-vlist{display:flex;flex-direction:column;gap:0;background:var(--yz-card);border-radius:var(--yz-radius);border:1px solid var(--yz-line);overflow:hidden}
+.yz-vitem{display:flex;gap:14px;padding:15px 18px;border-bottom:1px solid var(--yz-line);transition:.2s}
+.yz-vitem:last-child{border-bottom:none}
+.yz-vitem:hover{background:#fafcfd}
+.yz-vitem-no{
+  flex:0 0 26px;font-size:14px;font-weight:900;color:var(--yz-blue);opacity:.55;line-height:1.5;
+}
+.yz-vitem-body{flex:1;min-width:0}
+.yz-vitem-body h4{font-size:14.5px;font-weight:700;line-height:1.5;margin-bottom:4px}
+.yz-vitem-body p{font-size:12.5px;color:var(--yz-muted);overflow:hidden;display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical}
+.yz-vitem-foot{display:flex;gap:12px;flex-wrap:wrap;font-size:11.5px;color:#8494a2;margin-top:6px}
+.yz-vitem-side{flex:0 0 auto;display:flex;flex-direction:column;justify-content:center;align-items:flex-end;gap:6px}
+.yz-vitem-side .yz-act{padding:3px 9px;font-size:11.5px}
+
+/* ===== 专题卡 ===== */
+.yz-topic-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(260px,100%),1fr));gap:22px}
+.yz-topic{
+  background:var(--yz-card);border:1px solid var(--yz-line);border-radius:var(--yz-radius);
+  overflow:hidden;display:flex;flex-direction:column;transition:.26s;
+}
+.yz-topic:hover{transform:translateY(-4px);border-color:#c4d4de;box-shadow:var(--yz-shadow)}
+.yz-topic img{width:100%;aspect-ratio:16/10;object-fit:cover}
+.yz-topic-body{padding:17px 18px 18px;display:flex;flex-direction:column;flex:1;min-width:0}
+.yz-topic-status{
+  align-self:flex-start;font-size:11px;font-weight:700;padding:2px 9px;border-radius:4px;
+  background:var(--yz-amber-soft);color:#a56b09;margin-bottom:9px;letter-spacing:.03em;
+}
+.yz-topic-status.done{background:#e6f4ec;color:#237a4b}
+.yz-topic-body h3{font-size:16.5px;font-weight:800;margin-bottom:7px;line-height:1.4}
+.yz-topic-body > p{font-size:13px;color:var(--yz-muted);margin-bottom:13px}
+.yz-topic-list{list-style:none;margin-top:auto;border-top:1px dashed var(--yz-line);padding-top:11px;display:flex;flex-direction:column;gap:7px}
+.yz-topic-list li{font-size:12.5px;color:#43525f;display:flex;gap:8px;line-height:1.5}
+.yz-topic-list li::before{content:"›";color:var(--yz-blue);font-weight:900;flex:0 0 auto}
+
+/* ===== 作者矩阵（双列简介） ===== */
+.yz-author-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(430px,100%),1fr));gap:20px}
+.yz-author{
+  background:var(--yz-card);border:1px solid var(--yz-line);border-radius:var(--yz-radius);
+  padding:20px 22px;display:flex;gap:16px;transition:.24s;
+}
+.yz-author:hover{border-color:#c0d3de;box-shadow:var(--yz-shadow);transform:translateY(-3px)}
+.yz-avatar{
+  flex:0 0 58px;width:58px;height:58px;border-radius:50%;display:grid;place-items:center;
+  font-size:21px;font-weight:900;color:#fff;letter-spacing:.02em;user-select:none;
+}
+.yz-author-main{min-width:0;flex:1}
+.yz-author-main h3{font-size:16px;font-weight:800;display:flex;align-items:center;gap:7px;flex-wrap:wrap}
+.yz-author-main h3 .yz-vip{
+  font-size:10px;background:var(--yz-deep);color:var(--yz-amber);border-radius:4px;
+  padding:1px 6px;font-weight:700;letter-spacing:.06em;
+}
+.yz-author-field{font-size:12px;color:var(--yz-blue);font-weight:600;margin:3px 0 7px}
+.yz-author-main p{font-size:12.5px;color:var(--yz-muted);line-height:1.75;margin-bottom:9px}
+.yz-author-nums{display:flex;gap:16px;font-size:12px;color:var(--yz-muted);flex-wrap:wrap}
+.yz-author-nums b{color:var(--yz-ink);font-weight:700}
+.yz-author-btn{
+  font-size:11.5px;color:var(--yz-blue);border:1px solid var(--yz-blue);
+  border-radius:16px;padding:3px 11px;margin-left:auto;align-self:flex-start;transition:.2s;white-space:nowrap;
+}
+.yz-author-btn:hover{background:var(--yz-blue);color:#fff}
+
+/* ===== 关键词深度解析 ===== */
+.yz-deep{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,340px);gap:40px;align-items:start}
+.yz-deep h2{margin-bottom:8px}
+.yz-deep-art h3{font-size:18px;font-weight:800;margin:26px 0 10px;color:var(--yz-deep);padding-left:13px;border-left:4px solid var(--yz-amber);line-height:1.4}
+.yz-deep-art h3:first-of-type{margin-top:6px}
+.yz-deep-art p{font-size:14.5px;color:#3d4d5b;margin-bottom:13px;text-align:justify}
+.yz-deep-art p b{color:var(--yz-deep);font-weight:700}
+.yz-deep-side{
+  background:var(--yz-card);border:1px solid var(--yz-line);border-radius:var(--yz-radius);
+  padding:22px;box-shadow:var(--yz-shadow);position:relative;
+}
+.yz-deep-side h3{font-size:15px;font-weight:800;margin-bottom:14px;display:flex;align-items:center;gap:8px}
+.yz-deep-side h3::before{content:"";width:5px;height:16px;border-radius:3px;background:var(--yz-amber)}
+.yz-deep-side img{border-radius:10px;margin-bottom:14px;aspect-ratio:16/10;object-fit:cover;width:100%}
+.yz-deep-facts{list-style:none;display:flex;flex-direction:column;gap:10px}
+.yz-deep-facts li{font-size:12.8px;color:var(--yz-muted);display:flex;gap:9px;line-height:1.6}
+.yz-deep-facts li::before{content:"◆";color:var(--yz-blue);font-size:9px;line-height:1.9;flex:0 0 auto}
+.yz-deep-facts li b{color:var(--yz-ink)}
+
+/* ===== 评论（双列短评） ===== */
+.yz-comment-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(300px,100%),1fr));gap:18px}
+.yz-comment{
+  background:var(--yz-card);border:1px solid var(--yz-line);border-radius:12px;
+  padding:17px 19px;display:flex;flex-direction:column;gap:10px;transition:.2s;
+}
+.yz-comment:hover{border-color:#c5d6e0;background:#fdfefe}
+.yz-comment-head{display:flex;align-items:center;gap:10px}
+.yz-avatar-sm{
+  flex:0 0 34px;width:34px;height:34px;border-radius:50%;display:grid;place-items:center;
+  font-size:13px;font-weight:800;color:#fff;user-select:none;
+}
+.yz-comment-head b{font-size:13.5px;font-weight:700}
+.yz-comment-head span{font-size:11px;color:#93a2af;margin-left:auto}
+.yz-comment p{font-size:13.2px;color:#43525f;line-height:1.7}
+.yz-stars{color:var(--yz-amber);font-size:12px;letter-spacing:2px}
+.yz-comment-tag{font-size:11px;color:var(--yz-blue);background:var(--yz-blue-soft);border-radius:4px;padding:1px 8px;align-self:flex-start}
+
+/* ===== 动态 / 合作 / FAQ ===== */
+.yz-three{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(320px,100%),1fr));gap:26px;align-items:start}
+.yz-panel{background:var(--yz-card);border:1px solid var(--yz-line);border-radius:var(--yz-radius);padding:22px}
+.yz-panel > h3{font-size:16px;font-weight:800;margin-bottom:16px;display:flex;align-items:center;gap:8px}
+.yz-panel > h3::before{content:"";width:5px;height:16px;border-radius:3px;background:var(--yz-blue)}
+.yz-news{list-style:none;display:flex;flex-direction:column;gap:0}
+.yz-news li{padding:12px 0;border-bottom:1px dashed var(--yz-line);display:flex;gap:12px;align-items:flex-start}
+.yz-news li:last-child{border-bottom:none;padding-bottom:0}
+.yz-news time{flex:0 0 62px;font-size:11.5px;color:#8c9bab;font-weight:600;padding-top:2px}
+.yz-news b{font-size:13.2px;font-weight:600;line-height:1.6;color:#33424f}
+.yz-news span{display:block;font-size:12px;color:var(--yz-muted);margin-top:2px;line-height:1.6}
+
+.yz-partners{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.yz-partner{
+  border:1px solid var(--yz-line);border-radius:10px;padding:14px 10px;text-align:center;
+  font-size:13px;font-weight:700;color:#4a5b68;transition:.2s;background:var(--yz-paper);
+}
+.yz-partner:hover{border-color:var(--yz-blue);color:var(--yz-blue);background:#fff}
+.yz-partner small{display:block;font-size:10.5px;font-weight:500;color:#93a2af;margin-top:2px}
+
+.yz-faq details{border-bottom:1px solid var(--yz-line);padding:11px 0}
+.yz-faq details:last-child{border-bottom:none;padding-bottom:0}
+.yz-faq summary{
+  font-size:13.5px;font-weight:700;cursor:pointer;list-style:none;
+  display:flex;align-items:center;gap:9px;color:#33424f;
+}
+.yz-faq summary::-webkit-details-marker{display:none}
+.yz-faq summary::before{
+  content:"+";flex:0 0 20px;width:20px;height:20px;display:grid;place-items:center;
+  background:var(--yz-blue-soft);color:var(--yz-blue);border-radius:6px;font-weight:800;font-size:14px;transition:.2s;
+}
+.yz-faq details[open] summary::before{content:"−";background:var(--yz-blue);color:#fff}
+.yz-faq details p{font-size:12.8px;color:var(--yz-muted);margin:9px 0 0 29px;line-height:1.8}
+
+/* ===== 页脚 ===== */
+.yz-footer{background:var(--yz-deep);color:#b9c6d1;padding:48px 0 0;font-size:13px}
+.yz-footer-grid{display:grid;grid-template-columns:minmax(0,1.6fr) repeat(3,minmax(0,1fr));gap:34px;padding-bottom:34px}
+.yz-footer h4{color:#fff;font-size:14px;margin-bottom:14px;font-weight:700;letter-spacing:.03em}
+.yz-footer-brand .yz-logo-name{color:#fff}
+.yz-footer-brand .yz-logo-sub{color:#8ba0b1}
+.yz-footer-brand p{font-size:12.5px;line-height:1.9;margin-top:14px;color:#93a7b8;max-width:30em}
+.yz-footer-links{list-style:none;display:flex;flex-direction:column;gap:9px}
+.yz-footer-links a{font-size:12.5px;color:#9fb2c1;transition:.2s}
+.yz-footer-links a:hover{color:var(--yz-amber)}
+.yz-footer-bottom{
+  border-top:1px solid #2b3d4c;padding:18px 0 22px;font-size:11.5px;color:#7d92a3;
+  display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between;align-items:center;
+}
+.yz-footer-bottom span{line-height:1.7}
+
+/* ===== 浮动按钮 / Toast / 弹窗 ===== */
+.yz-to-top{
+  position:fixed;right:22px;bottom:26px;width:44px;height:44px;border-radius:50%;
+  background:var(--yz-deep);color:#fff;display:grid;place-items:center;font-size:17px;
+  box-shadow:0 8px 24px rgba(24,36,48,.3);opacity:0;pointer-events:none;transition:.3s;z-index:100;
+}
+.yz-to-top.is-on{opacity:1;pointer-events:auto}
+.yz-to-top:hover{background:var(--yz-blue);transform:translateY(-3px)}
+.yz-toast{
+  position:fixed;left:50%;bottom:40px;transform:translate(-50%,20px);background:var(--yz-deep);
+  color:#fff;font-size:13px;padding:10px 22px;border-radius:24px;opacity:0;pointer-events:none;
+  transition:.3s;z-index:200;box-shadow:0 10px 30px rgba(0,0,0,.3);max-width:86vw;
+}
+.yz-toast.is-on{opacity:1;transform:translate(-50%,0)}
+.yz-modal{
+  position:fixed;inset:0;background:rgba(17,26,34,.55);display:grid;place-items:center;
+  padding:20px;opacity:0;pointer-events:none;transition:.25s;z-index:300;
+}
+.yz-modal.is-on{opacity:1;pointer-events:auto}
+.yz-modal-box{
+  background:#fff;border-radius:16px;width:min(460px,100%);padding:26px;position:relative;
+  box-shadow:0 30px 70px rgba(0,0,0,.3);transform:translateY(14px);transition:.25s;
+}
+.yz-modal.is-on .yz-modal-box{transform:translateY(0)}
+.yz-modal-box h3{font-size:18px;font-weight:800;margin-bottom:8px}
+.yz-modal-box p{font-size:13px;color:var(--yz-muted);margin-bottom:16px;line-height:1.8}
+.yz-modal-box label{font-size:12.5px;font-weight:600;display:block;margin-bottom:6px;color:#3d4d5b}
+.yz-modal-box input,.yz-modal-box textarea{
+  width:100%;border:1px solid var(--yz-line);border-radius:9px;padding:9px 12px;
+  font-family:inherit;font-size:13px;margin-bottom:13px;outline:none;transition:.2s;resize:vertical;
+}
+.yz-modal-box input:focus,.yz-modal-box textarea:focus{border-color:var(--yz-blue);box-shadow:0 0 0 3px rgba(47,111,143,.12)}
+.yz-modal-close{
+  position:absolute;top:14px;right:16px;font-size:20px;color:#96a5b2;line-height:1;width:30px;height:30px;
+  border-radius:8px;display:grid;place-items:center;
+}
+.yz-modal-close:hover{background:var(--yz-paper);color:var(--yz-ink)}
+.yz-modal-actions{display:flex;gap:10px;justify-content:flex-end;margin-top:4px}
+.yz-share-row{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:6px}
+.yz-share-row button{
+  flex:1 1 90px;border:1px solid var(--yz-line);border-radius:9px;padding:10px 6px;font-size:12.5px;
+  font-weight:600;color:#3d4d5b;transition:.2s;background:var(--yz-paper);
+}
+.yz-share-row button:hover{border-color:var(--yz-blue);color:var(--yz-blue);background:#fff}
+
+@media (max-width:980px){
+  .yz-hero-grid{grid-template-columns:1fr;gap:30px}
+  .yz-hero-visual{max-width:520px}
+  .yz-hero-frame img{aspect-ratio:16/11}
+  .yz-focus-grid{grid-template-columns:1fr}
+  .yz-deep{grid-template-columns:1fr;gap:26px}
+  .yz-footer-grid{grid-template-columns:1fr 1fr}
+  .yz-nav{display:none}
+  .yz-search-wrap{display:none}
+  .yz-burger{display:grid}
+  .yz-hero-stats > div{padding-right:20px;margin-right:20px}
+}
+@media (max-width:640px){
+  .yz-announce-txt{font-size:12px}
+  .yz-announce-link{display:none}
+  .yz-hero{padding:32px 0 40px}
+  .yz-hero-stats{flex-direction:column;gap:14px}
+  .yz-hero-stats > div{border-right:none;padding-right:0;margin-right:0;border-bottom:1px dashed var(--yz-line);padding-bottom:12px}
+  .yz-hero-stats > div:last-child{border-bottom:none;padding-bottom:0}
+  .yz-hero-badge{left:8px;bottom:12px}
+  .yz-author{flex-direction:column}
+  .yz-author-btn{margin-left:0}
+  .yz-footer-grid{grid-template-columns:1fr}
+  .yz-section{padding:42px 0}
+  .yz-to-top{right:14px;bottom:16px}
+}
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<div class="yz-sticky-group" id="yzTop">
+  <div class="yz-announce">
+    <div class="yz-shell">
+      <span class="yz-announce-tag">官方发布</span>
+      <span class="yz-announce-txt">印象足拍在线播放 <b>「步履四季」城市步伐影像企划</b> 第二季已上线 12 支原创高清视频，并同步开放创作者报名与作品上传通道。</span>
+      <a class="yz-announce-link" href="#yzCreators">立即报名</a>
+    </div>
+  </div>
+  <header class="yz-header">
+    <div class="yz-shell">
+      <a class="yz-logo" href="#yzTop" aria-label="印象足拍在线播放官网首页">
+        <span class="yz-logo-mark" aria-hidden="true">
+          <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+            <path d="M18 46c7-2 11-9 13-18 1-4 4-6 8-6 5 0 7 3 7 8 0 9-9 17-18 19-4 1-8 0-10-3z" fill="#f5a623"/>
+            <circle cx="23" cy="22" r="4.5" fill="#f5a623"/>
+          </svg>
+        </span>
+        <span>
+          <span class="yz-logo-name">印象<em>足拍</em></span>
+          <span class="yz-logo-sub">STEP&nbsp;·&nbsp;STORY</span>
+        </span>
+      </a>
+      <nav class="yz-nav" aria-label="主导航">
+        <a href="#yzFocus">焦点内容</a>
+        <a href="#yzTopics">品牌企划</a>
+        <a href="#yzCreators">创作者</a>
+        <a href="#yzDeep">深度解析</a>
+        <a href="#yzVoices">社区口碑</a>
+        <a href="#yzSupport">帮助中心</a>
+      </nav>
+      <div class="yz-search-wrap">
+        <div class="yz-search">
+          <input type="search" id="yzSearchInput" placeholder="搜索足拍视频、创作者、企划" aria-label="站内搜索">
+          <button type="button" id="yzSearchBtn">搜索</button>
+        </div>
+        <div class="yz-search-msg" id="yzSearchMsg" role="status" aria-live="polite"></div>
+      </div>
+      <button class="yz-burger" id="yzBurger" aria-label="展开导航菜单" aria-expanded="false"><span></span></button>
+    </div>
+  </header>
+  <div class="yz-mobile-nav" id="yzMobileNav">
+    <div class="yz-shell">
+      <a href="#yzFocus">焦点内容</a>
+      <a href="#yzTopics">品牌企划</a>
+      <a href="#yzCreators">创作者矩阵</a>
+      <a href="#yzDeep">关键词深度解析</a>
+      <a href="#yzVoices">社区口碑</a>
+      <a href="#yzSupport">企业动态与帮助</a>
+    </div>
+  </div>
+</div>
+
+<main>
+
+  <!-- S2 首屏 -->
+  <section class="yz-hero" id="yzHero">
+    <div class="yz-shell yz-hero-grid">
+      <div>
+        <span class="yz-hero-kicker">印象足拍 · 官方网站</span>
+        <h1>印象足拍在线播放</h1>
+        <p class="yz-hero-lead">把每一步都拍成能被看见的故事。作为专注足部影像与生活步伐记录的原创视频平台，我们用高清镜头与真实叙述，留住行走、奔跑、停留之间的温度与力量。</p>
+        <p class="yz-hero-abs">
+          <b>企业简介：</b>印象足拍在线播放官方网站由一支影像与内容运营团队持续运营，深耕足拍这一垂直领域，为创作者提供拍摄、剪辑、分发与社区互动的完整通路。平台坚持原创、正版与高清标准，已形成集精品内容、创作者社区、品牌企划与用户口碑于一体的内容生态。我们相信，步履行迹是最朴素的真实，也是值得被长期记录的时代切片。
+        </p>
+        <div class="yz-hero-cta">
+          <a class="yz-btn yz-btn-primary" href="#yzFocus">观看精品内容 <span aria-hidden="true">→</span></a>
+          <a class="yz-btn yz-btn-ghost" href="#yzCreators">认识创作者</a>
+          <button class="yz-btn yz-btn-amber" type="button" id="yzOpenSubmit1">投稿报名</button>
+        </div>
+        <div class="yz-hero-stats">
+          <div>
+            <div class="yz-stat-num" data-yz-count="2860">2860<small>+</small></div>
+            <div class="yz-stat-label">原创足拍视频存量</div>
+          </div>
+          <div>
+            <div class="yz-stat-num" data-yz-count="128">128<small>位</small></div>
+            <div class="yz-stat-label">签约与入驻创作者</div>
+          </div>
+          <div>
+            <div class="yz-stat-num" data-yz-count="96">96<small>%</small></div>
+            <div class="yz-stat-label">社区正向口碑占比</div>
+          </div>
+        </div>
+      </div>
+      <div class="yz-hero-visual">
+        <div class="yz-hero-frame">
+          <img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 1000'%3E%3Cdefs%3E%3ClinearGradient id='g1' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%231c2b38'/%3E%3Cstop offset='1' stop-color='%23325a6e'/%3E%3C/linearGradient%3E%3ClinearGradient id='g2' x1='0' y1='1' x2='1' y2='0'%3E%3Cstop offset='0' stop-color='%23f5a623'/%3E%3Cstop offset='1' stop-color='%23f7c873'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='800' height='1000' fill='url(%23g1)'/%3E%3Ccircle cx='640' cy='170' r='120' fill='%23ffffff' opacity='0.05'/%3E%3Cpath d='M0 700 Q180 610 380 660 T800 620 L800 1000 L0 1000 Z' fill='%230e1a23' opacity='0.75'/%3E%3Cpath d='M0 780 Q220 690 430 750 T800 700 L800 1000 L0 1000 Z' fill='%230a141c'/%3E%3Cg stroke='%23f5a623' stroke-width='3' opacity='0.55' fill='none'%3E%3Cpath d='M120 900 Q260 820 400 880 T700 830'/%3E%3C/g%3E%3Cg fill='url(%23g2)'%3E%3Cellipse cx='300' cy='760' rx='52' ry='26' transform='rotate(-18 300 760)'/%3E%3Cellipse cx='360' cy='700' rx='34' ry='20' transform='rotate(-24 360 700)'/%3E%3Cellipse cx='410' cy='650' rx='24' ry='16' transform='rotate(-28 410 650)'/%3E%3C/g%3E%3Cg fill='%23f5a623' opacity='0.5'%3E%3Ccircle cx='520' cy='460' r='5'/%3E%3Ccircle cx='560' cy='520' r='4'/%3E%3Ccircle cx='490' cy='540' r='3'/%3E%3C/g%3E%3Ctext x='70' y='130' fill='%23e9f2f7' font-family='sans-serif' font-size='30' font-weight='700' opacity='0.9'%3ESTEP STORY%3C/text%3E%3Ctext x='70' y='175' fill='%23f5a623' font-family='sans-serif' font-size='17' letter-spacing='6'%3EIMPRESSION FOOT FILM%3C/text%3E%3C/svg%3E" alt="印象足拍在线播放首屏主视觉：深色地面上的一串金色足迹延伸向远方">
+        </div>
+        <div class="yz-play" aria-hidden="true"><i></i></div>
+        <div class="yz-hero-badge">
+          <span class="dot" aria-hidden="true"></span>
+          <span>
+            <b>「步履四季」第二季 · 正在更新</b>
+            <span>12 支原创高清视频 · 官方企划</span>
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- S3 焦点内容 + 视频列表 -->
+  <section class="yz-section" id="yzFocus">
+    <div class="yz-shell">
+      <div class="yz-sec-head">
+        <div>
+          <h2 class="yz-sec-title">本季<span>焦点内容</span> · 精选足拍影像</h2>
+          <p class="yz-sec-desc">由编辑部与创作者共同挑选，覆盖城市步伐、日常记录、拍摄教程与深度访谈，每一条都可在线高清播放。</p>
+        </div>
+        <a class="yz-sec-more" href="#yzTopics">查看全部企划</a>
+      </div>
+      <div class="yz-focus-grid">
+        <article class="yz-focus-main">
+          <figure>
+            <img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 450'%3E%3Cdefs%3E%3ClinearGradient id='f1' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23e8f1f5'/%3E%3Cstop offset='1' stop-color='%23c9dde8'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='800' height='450' fill='url(%23f1)'/%3E%3Crect x='0' y='330' width='800' height='120' fill='%23344a5a' opacity='0.85'/%3E%3Cg stroke='%232f6f8f' stroke-width='4' fill='none' opacity='0.85'%3E%3Cpath d='M60 340 Q200 280 340 310 T620 290'/%3E%3Cpath d='M60 366 Q220 312 380 340 T660 318'/%3E%3C/g%3E%3Cg fill='%23f5a623'%3E%3Cellipse cx='250' cy='310' rx='38' ry='18' transform='rotate(-12 250 310)'/%3E%3Cellipse cx='300' cy='288' rx='26' ry='14' transform='rotate(-16 300 288)'/%3E%3C/g%3E%3Ccircle cx='640' cy='110' r='66' fill='%23f5a623' opacity='0.25'/%3E%3Crect x='520' y='120' width='150' height='90' rx='10' fill='%23ffffff' opacity='0.75'/%3E%3Crect x='540' y='140' width='80' height='8' rx='4' fill='%232f6f8f'/%3E%3Crect x='540' y='158' width='110' height='8' rx='4' fill='%232f6f8f' opacity='0.55'/%3E%3Crect x='540' y='176' width='60' height='8' rx='4' fill='%23f5a623'/%3E%3Ctext x='60' y='90' font-family='sans-serif' font-size='30' font-weight='800' fill='%23223344'%3E城市清晨的第一步%3C/text%3E%3Ctext x='60' y='128' font-family='sans-serif' font-size='16' fill='%235d6d7c'%3ESIX O'CLOCK · CITY WALK FILM%3C/text%3E%3C/svg%3E" alt="城市清晨的第一步足拍视频封面：浅蓝街面上延伸的金色足迹与信息卡片">
+          </figure>
+          <div class="yz-focus-body">
+            <div class="yz-chip-row">
+              <span class="yz-chip">城市探索</span>
+              <span class="yz-chip">日常记录</span>
+              <span class="yz-chip">高清</span>
+            </div>
+            <h3>城市清晨的第一步：六点街头的三十天步伐影像</h3>
+            <p>创作者连续三十天在清晨六点出门，用低机位记录公交站、菜市场与天桥上的脚步节奏。从一个抬脚的动作切入，讲一座城市醒来的方式，也讲一个人如何重新找回生活的秩序感。</p>
+            <div class="yz-meta">
+              <span>作者 <b>林间脚注</b></span>
+              <span>播放 <b>42.6万</b></span>
+              <span>点赞 <b>3.1万</b></span>
+              <span>收藏 <b>8,420</b></span>
+            </div>
+            <div class="yz-actions">
+              <button class="yz-act" type="button" data-yz-like>♡ 点赞 <span>3.1万</span></button>
+              <button class="yz-act" type="button" data-yz-save>☆ 收藏</button>
+              <button class="yz-act" type="button" data-yz-share>⤴ 分享</button>
+              <button class="yz-act" type="button" data-yz-comment>💬 评论</button>
+            </div>
+          </div>
+        </article>
+
+        <div class="yz-vlist">
+          <article class="yz-vitem">
+            <span class="yz-vitem-no">01</span>
+            <div class="yz-vitem-body">
+              <h4>手机也能拍出电影感步伐：五个低机位运镜练习</h4>
+              <p>从贴地平移、脚踝特写到影子跟拍，完整演示零器材也能完成的三分钟短片。</p>
+              <div class="yz-vitem-foot"><span>教程干货</span><span>陈履</span><span>18.3万播放</span></div>
+            </div>
+            <div class="yz-vitem-side">
+              <button class="yz-act" type="button" data-yz-like>♡ 1.2万</button>
+              <button class="yz-act" type="button" data-yz-save>☆</button>
+            </div>
+          </article>
+          <article class="yz-vitem">
+            <span class="yz-vitem-no">02</span>
+            <div class="yz-vitem-body">
+              <h4>旧球鞋的最后一次旅行：一双鞋的七年行迹</h4>
+              <p>翻看鞋底的磨损纹路，把七年里走过的路重新讲一遍，是一次温柔的道别。</p>
+              <div class="yz-vitem-foot"><span>人物访谈</span><span>旧巷放映员</span><span>26.9万播放</span></div>
+            </div>
+            <div class="yz-vitem-side">
+              <button class="yz-act" type="button" data-yz-like>♡ 2.4万</button>
+              <button class="yz-act" type="button" data-yz-save>☆</button>
+            </div>
+          </article>
+          <article class="yz-vitem">
+            <span class="yz-vitem-no">03</span>
+            <div class="yz-vitem-body">
+              <h4>雪后山路徒步记录：防滑、补水与镜头保护清单</h4>
+              <p>实测三种防滑装备与镜头防雾方案，附完整拍摄时间轴与设备负担评估。</p>
+              <div class="yz-vitem-foot"><span>户外活动</span><span>野径</span><span>12.7万播放</span></div>
+            </div>
+            <div class="yz-vitem-side">
+              <button class="yz-act" type="button" data-yz-like>♡ 9,860</button>
+              <button class="yz-act" type="button" data-yz-save>☆</button>
+            </div>
+          </article>
+          <article class="yz-vitem">
+            <span class="yz-vitem-no">04</span>
+            <div class="yz-vitem-body">
+              <h4>妈妈教我纳鞋底：两代人的手作与手部特写</h4>
+              <p>用微距镜头拍下针脚与掌纹，讲一门快要消失的手艺，也讲一段家常。</p>
+              <div class="yz-vitem-foot"><span>手作DIY</span><span>阿绒工作室</span><span>31.5万播放</span></div>
+            </div>
+            <div class="yz-vitem-side">
+              <button class="yz-act" type="button" data-yz-like>♡ 3.6万</button>
+              <button class="yz-act" type="button" data-yz-save>☆</button>
+            </div>
+          </article>
+          <article class="yz-vitem">
+            <span class="yz-vitem-no">05</span>
+            <div class="yz-vitem-body">
+              <h4>十分钟学会脚部特写调色：冷暖对照与肤色还原</h4>
+              <p>给出四组可复制参数，说明为什么脚步画面容易偏色，以及如何稳住质感。</p>
+              <div class="yz-vitem-foot"><span>实用技巧</span><span>影像后厨</span><span>7.8万播放</span></div>
+            </div>
+            <div class="yz-vitem-side">
+              <button class="yz-act" type="button" data-yz-like>♡ 6,140</button>
+              <button class="yz-act" type="button" data-yz-save>☆</button>
+            </div>
+          </article>
+          <article class="yz-vitem">
+            <span class="yz-vitem-no">06</span>
+            <div class="yz-vitem-body">
+              <h4>地铁口的三分钟：陌生人的脚步如何组成城市的节拍</h4>
+              <p>固定机位拍摄七天，剪出早高峰的脚步节奏，配以十二位路人的短句自述。</p>
+              <div class="yz-vitem-foot"><span>在地文化</span><span>林间脚注</span><span>21.2万播放</span></div>
+            </div>
+            <div class="yz-vitem-side">
+              <button class="yz-act" type="button" data-yz-like>♡ 1.9万</button>
+              <button class="yz-act" type="button" data-yz-save>☆</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- S4 专题企划 -->
+  <section class="yz-section yz-section-alt" id="yzTopics">
+    <div class="yz-shell">
+      <div class="yz-sec-head">
+        <div>
+          <h2 class="yz-sec-title">品牌<span>企划与专题</span> · 步履四季</h2>
+          <p class="yz-sec-desc">印象足拍在线播放围绕长期主题组织内容，每一季都是一个完整叙事，持续为社区提供可追更的精品内容。</p>
+        </div>
+      </div>
+      <div class="yz-topic-grid">
+        <article class="yz-topic">
+          <img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 400'%3E%3Crect width='640' height='400' fill='%23203040'/%3E%3Cg stroke='%23f5a623' stroke-width='3' fill='none' opacity='0.7'%3E%3Ccircle cx='320' cy='210' r='120'/%3E%3Ccircle cx='320' cy='210' r='80'/%3E%3Ccircle cx='320' cy='210' r='42'/%3E%3C/g%3E%3Cg fill='%23f5a623'%3E%3Cellipse cx='320' cy='250' rx='26' ry='13'/%3E%3Cellipse cx='320' cy='218' rx='18' ry='10'/%3E%3C/g%3E%3Cpath d='M0 340 L640 340 L640 400 L0 400 Z' fill='%232f6f8f'/%3E%3Ctext x='40' y='70' fill='%23e9f2f7' font-family='sans-serif' font-size='26' font-weight='800'%3E%E5%9B%9B%E5%AD%A3%E8%84%9A%E6%AD%A5%3C/text%3E%3Ctext x='40' y='104' fill='%23f5a623' font-family='sans-serif' font-size='14' letter-spacing='4'%3EFOUR SEASONS SERIES%3C/text%3E%3C/svg%3E" alt="步履四季专题视觉：深色背景上的同心圆与金色脚印">
+          <div class="yz-topic-body">
+            <span class="yz-topic-status">更新中 · 第 2 季</span>
+            <h3>步履四季：一年四个季节的步伐影像</h3>
+            <p>以春、夏、秋、冬为章节，记录同一条路在不同季节里的模样。每一集跟随一位创作者回到固定的路段，对照时间的变化。</p>
+            <ul class="yz-topic-list">
+              <li>春分篇：雨后的青石台阶与湿润反光</li>
+              <li>夏至篇：正午柏油路上的热浪与影子</li>
+              <li>秋收篇：落叶覆盖的乡间小径慢镜头</li>
+            </ul>
+          </div>
+        </article>
+        <article class="yz-topic">
+          <img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 400'%3E%3Crect width='640' height='400' fill='%23eef3f6'/%3E%3Crect x='0' y='260' width='640' height='140' fill='%23d6e3ea'/%3E%3Cg stroke='%232f6f8f' stroke-width='5' fill='none'%3E%3Cpath d='M40 300 L170 240 L300 290 L440 220 L600 280'/%3E%3C/g%3E%3Cg fill='%23f5a623'%3E%3Cellipse cx='170' cy='250' rx='22' ry='11'/%3E%3Cellipse cx='440' cy='230' rx='22' ry='11'/%3E%3C/g%3E%3Ccircle cx='540' cy='90' r='46' fill='%23f5a623' opacity='0.6'/%3E%3Ctext x='40' y='70' fill='%23223344' font-family='sans-serif' font-size='26' font-weight='800'%3E%E5%9F%8E%E5%B8%82%E6%AD%A5%E5%B1%A5%3C/text%3E%3Ctext x='40' y='104' fill='%232f6f8f' font-family='sans-serif' font-size='14' letter-spacing='4'%3ECITY WALK ATLAS%3C/text%3E%3C/svg%3E" alt="城市步履图鉴专题视觉：浅色背景上的脚步路径连线与金色圆点">
+          <div class="yz-topic-body">
+            <span class="yz-topic-status">长期企划</span>
+            <h3>城市步履图鉴：把街道拍成可收藏的地图</h3>
+            <p>联合十二位在地创作者，用脚步丈量城市的分区与边界。每支视频对应一处街巷，并附上可下载的步行路线图与拍摄提示。</p>
+            <ul class="yz-topic-list">
+              <li>老城区：窄巷光影与石板路的回响</li>
+              <li>工业带：厂区边缘的长影与铁轨纹理</li>
+              <li>滨水段：江风中的慢跑者与晨光</li>
+            </ul>
+          </div>
+        </article>
+        <article class="yz-topic">
+          <img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 400'%3E%3Crect width='640' height='400' fill='%23f7f0e2'/%3E%3Cg fill='%23c98a3a' opacity='0.85'%3E%3Crect x='60' y='250' width='80' height='60' rx='8'/%3E%3Crect x='160' y='220' width='80' height='90' rx='8'/%3E%3Crect x='260' y='180' width='80' height='130' rx='8'/%3E%3C/g%3E%3Cg fill='%23223344'%3E%3Crect x='380' y='240' width='14' height='70' rx='6'/%3E%3Crect x='410' y='220' width='14' height='90' rx='6'/%3E%3Crect x='440' y='200' width='14' height='110' rx='6'/%3E%3C/g%3E%3Ccircle cx='520' cy='120' r='54' fill='%232f6f8f' opacity='0.25'/%3E%3Ctext x='60' y='90' fill='%23223344' font-family='sans-serif' font-size='26' font-weight='800'%3E%E6%89%8B%E4%BD%9C%E4%B8%8E%E8%84%9A%E6%AD%A5%3C/text%3E%3Ctext x='60' y='124' fill='%23a8742e' font-family='sans-serif' font-size='14' letter-spacing='4'%3ECRAFT AND STEPS%3C/text%3E%3C/svg%3E" alt="手作与脚步专题视觉：米色背景上的布料色块与针脚图形">
+          <div class="yz-topic-body">
+            <span class="yz-topic-status done">已完结 · 8 集</span>
+            <h3>手作与脚步：从纳鞋底到改造旧鞋</h3>
+            <p>走进八位手作人的生活现场，记录鞋履修补、布鞋缝制与旧鞋改造，讲手艺，也讲物品与人的关系。</p>
+            <ul class="yz-topic-list">
+              <li>纳鞋底：针脚密度与掌纹的微距对话</li>
+              <li>旧鞋改造：一双球鞋的第二次生命</li>
+              <li>工坊一日：胶片色调下的手作时间</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- S5 创作者矩阵（双列简介） -->
+  <section class="yz-section" id="yzCreators">
+    <div class="yz-shell">
+      <div class="yz-sec-head">
+        <div>
+          <h2 class="yz-sec-title">创作者<span>矩阵</span> · 每一步都有讲述者</h2>
+          <p class="yz-sec-desc">印象足拍在线播放的社区由真实创作者支撑，他们的镜头构成了平台的内容生态，也让品牌有了持续生长的力量。</p>
+        </div>
+        <button class="yz-btn yz-btn-ghost" type="button" id="yzOpenSubmit2">申请成为创作者</button>
+      </div>
+      <div class="yz-author-grid">
+        <article class="yz-author">
+          <div class="yz-avatar" style="background:linear-gradient(135deg,#2f6f8f,#22485c)">林</div>
+          <div class="yz-author-main">
+            <h3>林间脚注 <span class="yz-vip">签约创作者</span></h3>
+            <div class="yz-author-field">城市探索 · 日常记录</div>
+            <p>用低机位和平视视角记录城市里的脚步，坚持同一条路走满三十天再剪成一支短片。认为影像的力量来自反复抵达，而不是一次惊艳。</p>
+            <div class="yz-author-nums"><span>作品 <b>86</b></span><span>粉丝 <b>24.8万</b></span><span>获赞 <b>190万</b></span></div>
+          </div>
+          <button class="yz-author-btn" type="button" data-yz-author="林间脚注">主页</button>
+        </article>
+        <article class="yz-author">
+          <div class="yz-avatar" style="background:linear-gradient(135deg,#f5a623,#d1861a)">陈</div>
+          <div class="yz-author-main">
+            <h3>陈履</h3>
+            <div class="yz-author-field">教程干货 · 拍摄教学</div>
+            <p>前广告片场摄影助理，擅长把复杂运镜拆成普通人能上手的动作。视频里很少炫技，更多是给参数、给清单、给可复现的步骤。</p>
+            <div class="yz-author-nums"><span>作品 <b>54</b></span><span>粉丝 <b>17.2万</b></span><span>获赞 <b>96万</b></span></div>
+          </div>
+          <button class="yz-author-btn" type="button" data-yz-author="陈履">主页</button>
+        </article>
+        <article class="yz-author">
+          <div class="yz-avatar" style="background:linear-gradient(135deg,#6a8f6b,#456a48)">野</div>
+          <div class="yz-author-main">
+            <h3>野径</h3>
+            <div class="yz-author-field">户外活动 · 徒步影像</div>
+            <p>常年在外徒步，拍摄习惯是不打扰。镜头多停在脚与地面之间，记录泥地、碎石、雪面与草坡，也记录身体的疲惫与坚持。</p>
+            <div class="yz-author-nums"><span>作品 <b>41</b></span><span>粉丝 <b>12.5万</b></span><span>获赞 <b>73万</b></span></div>
+          </div>
+          <button class="yz-author-btn" type="button" data-yz-author="野径">主页</button>
+        </article>
+        <article class="yz-author">
+          <div class="yz-avatar" style="background:linear-gradient(135deg,#8a6d9c,#5f4772)">阿</div>
+          <div class="yz-author-main">
+            <h3>阿绒工作室 <span class="yz-vip">年度口碑</span></h3>
+            <div class="yz-author-field">手作DIY · 文化访谈</div>
+            <p>三人家族工作室，主理人阿绒负责拍摄与剪辑，母亲负责手艺出镜。作品以微距和自然光为主，追求真实、温暖的记录质感。</p>
+            <div class="yz-author-nums"><span>作品 <b>63</b></span><span>粉丝 <b>29.4万</b></span><span>获赞 <b>260万</b></span></div>
+          </div>
+          <button class="yz-author-btn" type="button" data-yz-author="阿绒工作室">主页</button>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 关键词深度解析 -->
+  <section class="yz-section yz-section-alt" id="yzDeep">
+    <div class="yz-shell yz-deep">
+      <div class="yz-deep-art">
+        <h2 class="yz-sec-title">深度解析：<span>印象足拍在线播放</span> 为什么值得长期观看</h2>
+        <p>“印象足拍在线播放”并不只是一个搜索词，它背后是一整套关于记录方式的选择。作为一家持续运营的视频品牌官方网站，我们把镜头压低，把注意力放在最容易被忽略的地方——脚、地面、步伐与人的关系。以下从平台定位、内容方法与社区价值三个角度，说明我们为何深耕这个垂直领域。</p>
+
+        <h3>一、定位：把被忽略的视角做成一个正式的内容门类</h3>
+        <p>大多数影像内容追求面部、表情与情绪的直接传达，而足拍选择了另一条路径。脚步信息量极大：步频透露状态，鞋底磨损反映生活习惯，影子长度标记时间，地面材质暗示地域。印象足拍在线播放将这些细节系统化，形成可检索、可追更、可对比的内容结构。我们为每一支视频标注拍摄地点类型、机位高度、光线条件与剪辑节奏，让观看不只是消遣，也能成为学习。对普通用户而言，这是一处能安静看完一支短片的社区；对创作者而言，这是一个愿意为细节留出位置的平台。</p>
+        <p>平台坚持原创与正版标准，全部内容经由创作者授权发布，官方企划内容由编辑部与签约创作者共同完成。高清是我们对画质的最低要求，真实则是我们对叙事的要求。我们不鼓励为了效果而伪造场景，也不以夸张标题换取点击。这种克制让印象足拍在线播放逐渐成为用户首选的口碑内容社区，也让企业在与创作者合作时拥有更清晰的品质底线。</p>
+
+        <h3>二、方法：一支足拍视频从灵感到成片要经过什么</h3>
+        <p>在我们的创作方法论里，一支三分钟的足拍视频通常需要三到五次实地拍摄。第一次是勘景，确认路面材质、行人密度与光线走向；第二次是试拍，用手机快速比对机位高度与焦段；第三到第五次才是正式拍摄，覆盖不同天气与时段。剪辑阶段遵循“三分钟原则”：前二十秒给出空间感，中段用节奏变化推进，结尾回到一个安静的长镜头，让人有余地离开画面。</p>
+        <p>声音同样关键。脚步与地面的接触声是足拍最独特的资产，我们建议使用独立收音设备贴近地面收录，并保留一部分环境声，比如远处车流、鸟叫或雨滴。很多观众留言说，戴上耳机看印象足拍在线播放的视频，会觉得像亲自走了一段路。这种陪伴感不是靠文案营造的，而是靠声音与画面共同完成的。</p>
+
+        <h3>三、社区：创作者、观众与企业如何形成持续生态</h3>
+        <p>内容生态的健康程度，取决于参与者能否稳定获得回报。印象足拍在线播放为创作者提供分级签约、作品分成、企划邀约与设备支持四条通路；为观众提供收藏、评论、专题追更与线下放映报名；为企业提供品牌定制影像与场景合作。三者之间不是单向输送，而是反复循环：观众的真实反馈会影响企划方向，创作者的经验会沉淀为公开教程，企业的合作需求又会带来新的拍摄场景。</p>
+        <p>我们同样重视社会责任。平台定期开放公益拍摄名额，为传统手艺人、社区工作者与乡村教师记录日常步伐；也设立了内容审核与版权保护机制，确保每一帧画面都来源清楚。持续运营四年多来，印象足拍在线播放积累了超过两千八百支原创视频，形成了从入门教程到深度访谈的完整阶梯。对行业来说，这是一次关于“垂直领域也可以做出影响力”的具体实践；对每一个普通观众来说，这里只是安静地放着一些值得看完的脚步故事。</p>
+        <p>如果你刚接触足拍，建议从“城市步履图鉴”开始，再回到教程区对照参数练习；如果你已经拍摄过一段时间，欢迎通过投稿入口上传作品，编辑会在五个工作日内给出反馈。官方网站与官方发布渠道会同步更新企划进度与比赛信息，请以官方发布为准。</p>
+      </div>
+      <aside class="yz-deep-side">
+        <h3>足拍入门三件事</h3>
+        <img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 250'%3E%3Crect width='400' height='250' fill='%23223344'/%3E%3Cg stroke='%23f5a623' stroke-width='2' opacity='0.8' fill='none'%3E%3Cpath d='M40 190 Q120 150 200 175 T360 155'/%3E%3C/g%3E%3Cg fill='%23f5a623'%3E%3Cellipse cx='150' cy='170' rx='20' ry='10'/%3E%3Cellipse cx='190' cy='150' rx='13' ry='8'/%3E%3C/g%3E%3Crect x='250' y='60' width='100' height='60' rx='8' fill='%23ffffff' opacity='0.15'/%3E%3Ctext x='250' y='96' fill='%23e9f2f7' font-family='sans-serif' font-size='13'%3ESTEP 01%3C/text%3E%3Ctext x='40' y='50' fill='%23e9f2f7' font-family='sans-serif' font-size='18' font-weight='700'%3E低机位 · 慢节奏 · 真声音%3C/text%3E%3C/svg%3E" alt="足拍入门示意图：深色背景上的低机位轨迹与步骤标识">
+        <ul class="yz-deep-facts">
+          <li><b>机位：</b>贴地十五到三十厘米，保持水平，避免俯拍造成压迫感。</li>
+          <li><b>光线：</b>优先清晨与黄昏，长影能强化步伐的方向感。</li>
+          <li><b>收音：</b>单独收录脚步与环境声，剪辑时保留三成现场原声。</li>
+          <li><b>节奏：</b>三分钟内完成空间、变化与停顿三段结构。</li>
+          <li><b>合规：</b>拍摄路人需征得同意，官方企划提供授权模板。</li>
+        </ul>
+      </aside>
+    </div>
+  </section>
+
+  <!-- S6 用户评价（双列短评） -->
+  <section class="yz-section" id="yzVoices">
+    <div class="yz-shell">
+      <div class="yz-sec-head">
+        <div>
+          <h2 class="yz-sec-title">社区<span>口碑</span> · 来自观众与创作者的真实声音</h2>
+          <p class="yz-sec-desc">印象足拍在线播放的评论区常常比视频更长。以下摘录来自专题页、创作者主页与线下放映活动的真实反馈。</p>
+        </div>
+      </div>
+      <div class="yz-comment-grid">
+        <article class="yz-comment">
+          <div class="yz-comment-head">
+            <div class="yz-avatar-sm" style="background:#2f6f8f">周</div>
+            <b>周未然</b><span>11月18日</span>
+          </div>
+          <div class="yz-stars">★★★★★</div>
+          <p>第一次在印象足拍在线播放看到“城市清晨的第一步”，那天下班路上特意绕了远路，走了一遍视频里的街道。原来每天经过的地方，被拍下来之后会这么不一样。</p>
+          <span class="yz-comment-tag">专题追更</span>
+        </article>
+        <article class="yz-comment">
+          <div class="yz-comment-head">
+            <div class="yz-avatar-sm" style="background:#c98a3a">邵</div>
+            <b>邵一舟</b><span>11月12日</span>
+          </div>
+          <div class="yz-stars">★★★★★</div>
+          <p>教程区的参数给得非常实在，尤其是那期脚部特写调色，照着做一次就出效果。比起讲概念，我更需要这种能直接抄作业的内容，平台的品质感是能被验证的。</p>
+          <span class="yz-comment-tag">教程干货</span>
+        </article>
+        <article class="yz-comment">
+          <div class="yz-comment-head">
+            <div class="yz-avatar-sm" style="background:#6a8f6b">许</div>
+            <b>许以南</b><span>11月9日</span>
+          </div>
+          <div class="yz-stars">★★★★☆</div>
+          <p>内容很好，就是希望户外专题能多一些装备清单的文字版，视频里暂停记笔记有点麻烦。创作者回复我说已经在做了，这种互动态度让我愿意留下来。</p>
+          <span class="yz-comment-tag">产品建议</span>
+        </article>
+        <article class="yz-comment">
+          <div class="yz-comment-head">
+            <div class="yz-avatar-sm" style="background:#8a6d9c">林</div>
+            <b>林澜</b><span>11月5日</span>
+          </div>
+          <div class="yz-stars">★★★★★</div>
+          <p>带父母一起看了“手作与脚步”那一集，我妈看到纳鞋底的针脚突然讲了很多老家的事。印象足拍在线播放最打动我的地方，是它让人愿意开口聊自己的生活。</p>
+          <span class="yz-comment-tag">共看体验</span>
+        </article>
+        <article class="yz-comment">
+          <div class="yz-comment-head">
+            <div class="yz-avatar-sm" style="background:#3d5a6c">韩</div>
+            <b>韩知远</b><span>10月30日</span>
+          </div>
+          <div class="yz-stars">★★★★★</div>
+          <p>参加过一次线下放映，场地不大，片子放完主创留下来聊了四十分钟。这种社区感在视频网站上很少见，能感觉背后是一个认真在运营的品牌团队。</p>
+          <span class="yz-comment-tag">线下活动</span>
+        </article>
+        <article class="yz-comment">
+          <div class="yz-comment-head">
+            <div class="yz-avatar-sm" style="background:#b06d4a">闻</div>
+            <b>闻岑</b><span>10月24日</span>
+          </div>
+          <div class="yz-stars">★★★★☆</div>
+          <p>投稿过一次，编辑的修改意见写得很细，连剪辑点在哪一帧都标出来了。虽然没入选企划，但那种被认真对待的感觉，让我后来又拍了两支。</p>
+          <span class="yz-comment-tag">创作投稿</span>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- S7 辅助：企业动态 / 合作品牌 / FAQ -->
+  <section class="yz-section yz-section-alt" id="yzSupport">
+    <div class="yz-shell">
+      <div class="yz-sec-head">
+        <div>
+          <h2 class="yz-sec-title">企业动态 · <span>合作与帮助</span></h2>
+          <p class="yz-sec-desc">官方发布的最新进展、合作伙伴与常见问题，帮助你更快了解印象足拍在线播放的运营方式。</p>
+        </div>
+      </div>
+      <div class="yz-three">
+        <div class="yz-panel">
+          <h3>企业动态</h3>
+          <ul class="yz-news">
+            <li>
+              <time>11月20日</time>
+              <div><b>「步履四季」第二季正式上线</b><span>首周发布十二支原创高清视频，覆盖六座城市，专题页同步开放追更。</span></div>
+            </li>
+            <li>
+              <time>11月10日</time>
+              <div><b>年度创作者招募启动</b><span>开放三十个签约名额，提供设备支持与企划分成，报名通道持续至十二月。</span></div>
+            </li>
+            <li>
+              <time>10月28日</time>
+              <div><b>版权保护机制升级</b><span>上线画面水印与侵权快速处理通道，进一步完善正版内容管理体系。</span></div>
+            </li>
+            <li>
+              <time>10月15日</time>
+              <div><b>社区口碑满意度调研结果发布</b><span>回收有效问卷四千余份，正向口碑占比百分之九十六，教程区评分最高。</span></div>
+            </li>
+          </ul>
+        </div>
+        <div class="yz-panel">
+          <h3>合作品牌</h3>
+          <div class="yz-partners">
+            <div class="yz-partner">山径户外<small>装备支持</small></div>
+            <div class="yz-partner">慢工布坊<small>内容共创</small></div>
+            <div class="yz-partner">知行影像<small>技术协作</small></div>
+            <div class="yz-partner">城野书店<small>线下放映</small></div>
+          </div>
+        </div>
+        <div class="yz-panel yz-faq">
+          <h3>常见问题</h3>
+          <details>
+            <summary>印象足拍在线播放需要付费才能观看吗？</summary>
+            <p>官网大部分内容可免费高清观看，部分官方企划附带的完整教程包与路线图需要注册后下载，不收取费用。</p>
+          </details>
+          <details>
+            <summary>如何上传自己的足拍作品？</summary>
+            <p>通过页面中的投稿入口提交作品信息与成片链接，编辑会在五个工作日内给出反馈。请确保作品为原创并拥有画面与音乐的合法授权。</p>
+          </details>
+          <details>
+            <summary>拍摄路人脚步需要取得同意吗？</summary>
+            <p>需要。官方企划提供口头授权与书面授权两种模板，建议在拍摄前简短说明用途并保留记录，涉及未成年人须取得监护人同意。</p>
+          </details>
+          <details>
+            <summary>平台支持哪些画质与格式？</summary>
+            <p>推荐上传 1080P 及以上分辨率，帧率不低于 25fps，格式支持常见的 MP4 与 MOV。官方精品内容统一以高清规格发布。</p>
+          </details>
+          <details>
+            <summary>签约创作者可以获得哪些支持？</summary>
+            <p>包括企划邀约、设备借用、剪辑指导、流量推荐与作品分成五个方面，具体权益按签约等级执行。</p>
+          </details>
+          <details>
+            <summary>合作与商业拍摄如何联系？</summary>
+            <p>可通过联系我们面板提交需求，说明拍摄场景、周期与预算范围，品牌团队会安排对接。</p>
+          </details>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="yz-footer">
+  <div class="yz-shell">
+    <div class="yz-footer-grid">
+      <div class="yz-footer-brand">
+        <span class="yz-logo-name">印象足拍在线播放</span>
+        <span class="yz-logo-sub">STEP&nbsp;·&nbsp;STORY&nbsp;OFFICIAL</span>
+        <p>印象足拍在线播放官方网站，专注足部影像与生活步伐记录的原创视频平台。我们深耕垂直领域，坚持原创、正版与高清标准，持续为创作者与观众搭建值得信赖的内容生态。</p>
+      </div>
+      <div>
+        <h4>浏览</h4>
+        <ul class="yz-footer-links">
+          <li><a href="#yzFocus">焦点内容</a></li>
+          <li><a href="#yzTopics">品牌企划</a></li>
+          <li><a href="#yzCreators">创作者矩阵</a></li>
+          <li><a href="#yzDeep">深度解析</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>参与</h4>
+        <ul class="yz-footer-links">
+          <li><a href="#yzSupport">企业动态</a></li>
+          <li><a href="#yzSupport">常见问题</a></li>
+          <li><a href="#yzVoices">社区口碑</a></li>
+          <li><a href="#" data-yz-share>分享本站</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>联系我们</h4>
+        <ul class="yz-footer-links">
+          <li><a href="#" data-yz-comment>意见反馈</a></li>
+          <li><a href="#" data-yz-submit>作品投稿</a></li>
+          <li><a href="#yzSupport">商务合作</a></li>
+          <li><a href="#yzTop">回到顶部</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="yz-footer-bottom">
+      <span>© 2026 印象足拍在线播放 官方网站 · 版权所有 · 持续运营中</span>
+      <span>正版内容授权 · 高清播放 · 用户至上 · 备案号示例：影备 20260118 号</span>
+    </div>
+  </div>
+</footer>
+
+<button class="yz-to-top" id="yzToTop" aria-label="回到顶部">↑</button>
+<div class="yz-toast" id="yzToast" role="status" aria-live="polite"></div>
+
+<div class="yz-modal" id="yzShareModal" aria-hidden="true">
+  <div class="yz-modal-box" role="dialog" aria-modal="true" aria-labelledby="yzShareTitle">
+    <button class="yz-modal-close" type="button" data-yz-close aria-label="关闭">×</button>
+    <h3 id="yzShareTitle">分享印象足拍</h3>
+    <p>把这份足拍影像清单分享给同样喜欢慢慢走路的人。</p>
+    <div class="yz-share-row">
+      <button type="button" data-yz-copy>复制链接</button>
+      <button type="button" data-yz-toastmsg="已生成微信分享卡片提示">微信</button>
+      <button type="button" data-yz-toastmsg="已生成微博分享文案">微博</button>
+      <button type="button" data-yz-toastmsg="已生成 QQ 分享卡片">QQ</button>
+    </div>
+  </div>
+</div>
+
+<div class="yz-modal" id="yzCommentModal" aria-hidden="true">
+  <div class="yz-modal-box" role="dialog" aria-modal="true" aria-labelledby="yzCommentTitle">
+    <button class="yz-modal-close" type="button" data-yz-close aria-label="关闭">×</button>
+    <h3 id="yzCommentTitle">写下你的观后感</h3>
+    <p>你的反馈会影响下一季企划的方向，编辑会认真阅读每一条留言。</p>
+    <label for="yzCommentName">昵称</label>
+    <input id="yzCommentName" type="text" placeholder="怎么称呼你">
+    <label for="yzCommentText">内容</label>
+    <textarea id="yzCommentText" rows="3" placeholder="说说你最喜欢哪一支视频"></textarea>
+    <div class="yz-modal-actions">
+      <button class="yz-btn yz-btn-primary" type="button" id="yzCommentSend">提交</button>
+    </div>
+  </div>
+</div>
+
+<div class="yz-modal" id="yzSubmitModal" aria-hidden="true">
+  <div class="yz-modal-box" role="dialog" aria-modal="true" aria-labelledby="yzSubmitTitle">
+    <button class="yz-modal-close" type="button" data-yz-close aria-label="关闭">×</button>
+    <h3 id="yzSubmitTitle">投稿与创作者报名</h3>
+    <p>提交作品信息或报名意向，编辑将在五个工作日内回复，所有内容需为原创正版。</p>
+    <label for="yzSubmitName">称呼</label>
+    <input id="yzSubmitName" type="text" placeholder="你的昵称">
+    <label for="yzSubmitDesc">作品或报名说明</label>
+    <textarea id="yzSubmitDesc" rows="3" placeholder="拍摄地点、时长、作品链接或擅长方向"></textarea>
+    <div class="yz-modal-actions">
+      <button class="yz-btn yz-btn-amber" type="button" id="yzSubmitSend">提交报名</button>
+    </div>
+  </div>
+</div>
+
+<div class="yz-modal" id="yzAuthorModal" aria-hidden="true">
+  <div class="yz-modal-box" role="dialog" aria-modal="true" aria-labelledby="yzAuthorTitle">
+    <button class="yz-modal-close" type="button" data-yz-close aria-label="关闭">×</button>
+    <h3 id="yzAuthorTitle">创作者主页</h3>
+    <p id="yzAuthorText">正在整理这位创作者的代表作品，你可以先关注等待更新。</p>
+    <div class="yz-modal-actions">
+      <button class="yz-btn yz-btn-primary" type="button" data-yz-close>知道了</button>
+    </div>
+  </div>
+</div>
+
+<script>
+(function(){
+  "use strict";
+
+  var toastEl = document.getElementById('yzToast');
+  var toastTimer = null;
+  function toast(msg){
+    toastEl.textContent = msg;
+    toastEl.classList.add('is-on');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function(){ toastEl.classList.remove('is-on'); }, 2200);
+  }
+
+  /* 移动端导航 */
+  var burger = document.getElementById('yzBurger');
+  var mobileNav = document.getElementById('yzMobileNav');
+  burger.addEventListener('click', function(){
+    var open = mobileNav.classList.toggle('is-open');
+    burger.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+  mobileNav.addEventListener('click', function(e){
+    if(e.target.tagName === 'A'){
+      mobileNav.classList.remove('is-open');
+      burger.setAttribute('aria-expanded','false');
+    }
+  });
+
+  /* 搜索反馈 */
+  var searchInput = document.getElementById('yzSearchInput');
+  var searchBtn = document.getElementById('yzSearchBtn');
+  var searchMsg = document.getElementById('yzSearchMsg');
+  var searchTimer = null;
+  function doSearch(){
+    var kw = searchInput.value.trim();
+    var text;
+    if(!kw){
+      text = '请输入关键词，例如「城市」「教程」「手作」。';
+    }else{
+      text = '已按「' + kw + '」为你筛选，共匹配 12 支相关视频与 4 位创作者。';
+    }
+    searchMsg.textContent = text;
+    searchMsg.classList.add('is-on');
+    clearTimeout(searchTimer);
+    searchTimer = setTimeout(function(){ searchMsg.classList.remove('is-on'); }, 3200);
+  }
+  searchBtn.addEventListener('click', doSearch);
+  searchInput.addEventListener('keydown', function(e){ if(e.key === 'Enter'){ doSearch(); } });
+
+  /* 点赞 / 收藏 */
+  document.querySelectorAll('[data-yz-like]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var liked = btn.classList.toggle('is-liked');
+      var text = btn.textContent.trim();
+      var m = text.match(/[\d.,]+\s*[万]?/);
+      if(m){
+        var raw = m[0].replace(/[^\d.]/g,'');
+        var isWan = m[0].indexOf('万') > -1;
+        var num = parseFloat(raw);
+        if(!isNaN(num)){
+          num = liked ? num + (isWan ? 0.1 : 1) : num - (isWan ? 0.1 : 1);
+          if(num < 0) num = 0;
+          var out = isWan ? (Math.round(num*10)/10) + '万' : Math.round(num);
+          btn.innerHTML = (liked ? '♥' : '♡') + ' ' + out;
+          return;
+        }
+      }
+      btn.innerHTML = (liked ? '♥ 已点赞' : '♡ 点赞');
+    });
+  });
+  document.querySelectorAll('[data-yz-save]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var saved = btn.classList.toggle('is-saved');
+      var label = btn.textContent.replace(/[☆★]/g,'').trim();
+      btn.innerHTML = (saved ? '★' : '☆') + (label ? ' ' + label : '');
+      toast(saved ? '已加入收藏夹' : '已取消收藏');
+    });
+  });
+
+  /* 弹窗基础 */
+  function openModal(id){
+    var modal = document.getElementById(id);
+    if(!modal) return;
+    modal.classList.add('is-on');
+    modal.setAttribute('aria-hidden','false');
+  }
+  function closeModal(modal){
+    modal.classList.remove('is-on');
+    modal.setAttribute('aria-hidden','true');
+  }
+  document.querySelectorAll('.yz-modal').forEach(function(modal){
+    modal.addEventListener('click', function(e){
+      if(e.target === modal || e.target.hasAttribute('data-yz-close')) closeModal(modal);
+    });
+  });
+  document.addEventListener('keydown', function(e){
+    if(e.key === 'Escape'){
+      document.querySelectorAll('.yz-modal.is-on').forEach(closeModal);
+    }
+  });
+
+  /* 分享 */
+  document.querySelectorAll('[data-yz-share]').forEach(function(el){
+    el.addEventListener('click', function(e){
+      e.preventDefault();
+      openModal('yzShareModal');
+    });
+  });
+  document.querySelectorAll('[data-yz-toastmsg]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      toast(btn.getAttribute('data-yz-toastmsg'));
+      closeModal(document.getElementById('yzShareModal'));
+    });
+  });
+  document.querySelectorAll('[data-yz-copy]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var link = window.location.href;
+      if(navigator.clipboard && navigator.clipboard.writeText){
+        navigator.clipboard.writeText(link).then(function(){
+          toast('链接已复制，可以分享给朋友了');
+        }).catch(function(){
+          toast('复制失败，请手动选择地址栏链接');
+        });
+      }else{
+        toast('当前环境不支持自动复制，请手动复制地址栏链接');
+      }
+      closeModal(document.getElementById('yzShareModal'));
+    });
+  });
+
+  /* 评论弹窗 */
+  document.querySelectorAll('[data-yz-comment]').forEach(function(el){
+    el.addEventListener('click', function(e){
+      e.preventDefault();
+      openModal('yzCommentModal');
+    });
+  });
+  document.getElementById('yzCommentSend').addEventListener('click', function(){
+    var name = document.getElementById('yzCommentName').value.trim();
+    var text = document.getElementById('yzCommentText').value.trim();
+    if(!text){
+      toast('请先写下你的观后感');
+      return;
+    }
+    toast((name || '观众') + '，感谢你的留言，编辑已收到');
+    document.getElementById('yzCommentText').value = '';
+    closeModal(document.getElementById('yzCommentModal'));
+  });
+
+  /* 投稿弹窗 */
+  document.querySelectorAll('[data-yz-submit]').forEach(function(el){
+    el.addEventListener('click', function(e){
+      e.preventDefault();
+      openModal('yzSubmitModal');
+    });
+  });
+  ['yzOpenSubmit1','yzOpenSubmit2'].forEach(function(id){
+    var btn = document.getElementById(id);
+    if(btn) btn.addEventListener('click', function(){ openModal('yzSubmitModal'); });
+  });
+  document.getElementById('yzSubmitSend').addEventListener('click', function(){
+    var desc = document.getElementById('yzSubmitDesc').value.trim();
+    if(!desc){
+      toast('请简单说明你的作品或报名方向');
+      return;
+    }
+    toast('提交成功，编辑将在五个工作日内回复');
+    document.getElementById('yzSubmitDesc').value = '';
+    closeModal(document.getElementById('yzSubmitModal'));
+  });
+
+  /* 作者主页弹窗 */
+  document.querySelectorAll('[data-yz-author]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var name = btn.getAttribute('data-yz-author');
+      document.getElementById('yzAuthorTitle').textContent = name + ' · 创作者主页';
+      document.getElementById('yzAuthorText').textContent =
+        '在印象足拍在线播放，' + name + ' 已发布多支原创足拍作品。你可以在焦点内容与专题企划中找到代表作品，关注后可第一时间收到更新通知。';
+      openModal('yzAuthorModal');
+    });
+  });
+
+  /* 回到顶部 */
+  var toTop = document.getElementById('yzToTop');
+  window.addEventListener('scroll', function(){
+    if(window.scrollY > 420){ toTop.classList.add('is-on'); }
+    else{ toTop.classList.remove('is-on'); }
+  }, {passive:true});
+  toTop.addEventListener('click', function(){
+    window.scrollTo({top:0, behavior:'smooth'});
+  });
+
+  /* 数字滚动 */
+  var counted = false;
+  function runCount(){
+    if(counted) return;
+    var first = document.querySelector('[data-yz-count]');
+    if(!first) return;
+    var top = first.getBoundingClientRect().top;
+    if(top < window.innerHeight * 0.9){
+      counted = true;
+      document.querySelectorAll('[data-yz-count]').forEach(function(el){
+        var target = parseInt(el.getAttribute('data-yz-count'), 10);
+        if(isNaN(target)) return;
+        var suffix = el.querySelector('small');
+        var suffixHtml = suffix ? suffix.outerHTML : '';
+        var start = null;
+        var duration = 1100;
+        function step(ts){
+          if(!start) start = ts;
+          var p = Math.min((ts - start) / duration, 1);
+          var eased = 1 - Math.pow(1 - p, 3);
+          var val = Math.round(target * eased);
+          el.innerHTML = val + suffixHtml;
+          if(p < 1) requestAnimationFrame(step);
+        }
+        requestAnimationFrame(step);
+      });
+    }
+  }
+  window.addEventListener('scroll', runCount, {passive:true});
+  window.addEventListener('load', runCount);
+})();
+</script>
+</body>
+  </html>
